@@ -16,7 +16,8 @@ class Stack {
     Node* top;  // pointer to top of stack
 
 public:
-    Stack() { top = NULL; } // constructor → empty stack
+    Stack() { top = NULL;
+     } // constructor → empty stack
 
     // Push element on top
     void push(int val) {
